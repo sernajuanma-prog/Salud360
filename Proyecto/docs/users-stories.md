@@ -1,52 +1,52 @@
 # Historias de Usuario Detalladas - SALUD_360
 
-## Épica 1: Control de Accesos y Usuarios (Prioridad Alta)
+## Épica 1: Control de Accesos y Usuarios (Prioridad Alta) []
 > **Justificación:** Es la base de la seguridad y personalización del sistema. Se deben identificar los ingresos de pacientes y profesionales antes de permitir el acceso a agendas médicas o datos de salud protegidos.
 
-### Feature 1.1: Registro y Onboarding de Usuarios
-#### 📗 Historia de Usuario (Actividad 6): Registro de Pacientes
+### Feature 1.1: Registro y Onboarding de Usuarios []
+#### 📗 Historia de Usuario (Actividad 6): Registro de Pacientes []
 * **Formato:** Como Paciente nuevo, quiero crear una cuenta con mis datos básicos para acceder a los servicios de la aplicación.
 * **Criterios de Aceptación (CA):**
   * Validar campos obligatorios (cédula, nombre, correo, contraseña).
   * Enviar correo de confirmación.
 
-#### 📗 Historia de Usuario (Actividad 7): Registro de Profesionales
+#### 📗 Historia de Usuario (Actividad 7): Registro de Profesionales []
 * **Formato:** Como Médico especialista, quiero registrar mi perfil junto a mi tarjeta profesional para ser habilitado en la agenda de la clínica.
 * **Criterios de Aceptación (CA):**
   * Permitir adjuntar número de licencia médica.
   * Dejar el perfil en estado "Pendiente de aprobación" por el administrador.
 
-### Feature 1.2: Autenticación y Sesiones Seguras
-#### 📗 Historia de Usuario (Actividad 8): Inicio de Sesión
+### Feature 1.2: Autenticación y Sesiones Seguras []
+#### 📗 Historia de Usuario (Actividad 8): Inicio de Sesión []
 * **Formato:** Como Usuario registrado, quiero ingresar con mi correo y contraseña para acceder a mi panel personal confidencial.
 * **Criterios de Aceptación (CA):**
   * Bloquear la cuenta tras 3 intentos fallidos.
   * Permitir recordar contraseña.
 
-#### 📗 Historia de Usuario (Actividad 9): Cierre de Sesión
+#### 📗 Historia de Usuario (Actividad 9): Cierre de Sesión []
 * **Formato:** Como Usuario autenticado, quiero cerrar mi sesión de forma explícita para garantizar que nadie más vea mis datos de salud en este dispositivo.
 * **Criterios de Aceptación (CA):**
   * Destruir los tokens de acceso activos y redirigir inmediatamente a la pantalla de Login.
 
 ---
 
-## Épica 2: Agendar y Gestionar Citas (Prioridad Alta)
+## Épica 2: Agendar y Gestionar Citas (Prioridad Alta) []
 > **Justificación:** Es el motor operativo diario de la clínica, nos permite coordinar la disponibilidad de los médicos con la cantidad de los pacientes para dar una buena atención.
 
-### Feature 2.1: Motor de Búsqueda y Disponibilidad
-#### 📗 Historia de Usuario (Actividad 10): Consulta de Disponibilidad
+### Feature 2.1: Motor de Búsqueda y Disponibilidad []
+#### 📗 Historia de Usuario (Actividad 10): Consulta de Disponibilidad []
 * **Formato:** Como Paciente, quiero filtrar los médicos por especialidad y fecha para encontrar un horario conveniente para mi atención.
 * **Criterios de Aceptación (CA):**
   * Mostrar un calendario interactivo en tiempo real con horas libres por especialista.
 
-### Feature 2.2: Gestión del Flujo de Citas
-#### 📗 Historia de Usuario (Actividad 1): Agendamiento de Citas
+### Feature 2.2: Gestión del Flujo de Citas []
+#### 📗 Historia de Usuario (Actividad 1): Agendamiento de Citas []
 * **Formato:** Como Paciente, quiero reservar un espacio médico seleccionado para asegurar mi consulta con el especialista.
 * **Criterios de Aceptación (CA):**
   * Confirmar la reserva visualmente.
   * Enviar un correo con el resumen de la cita.
 
-#### 📗 Historia de Usuario (Actividad 2): Modificación de Estado de Citas
+#### 📗 Historia de Usuario (Actividad 2): Modificación de Estado de Citas []
 * **Formato:** Como Paciente/Administrador, quiero cancelar o reagendar una cita existente para liberar el espacio en la agenda si no puedo asistir.
 * **Criterios de Aceptación (CA):**
   * Permitir cambios con un mínimo de 24 horas de anticipación.

@@ -69,10 +69,13 @@ El sistema cubre las siguientes 15 funciones principales:
 *   *Entregable:** Código estructurado en GitHub que permita registrar Pacientes y Profesionales, e imprima en pantalla la lista de especialistas con sus horarios libres.
 
 # Asignación de Tareas por Rol:
+
+* Roles: Producto Owner: Juan Manuel Serna / Scrum Master: Angie Garcia / Dev Team: Lucas, Michael, Camilo
+
 *   *Dev Team:**
     *   *Tarea 1:* Crear el repositorio, ejecutar comandos iniciales (`git init`, `git add .`, `git commit`) y desarrollar el registro de usuarios y profesionales.
     *   *Tarea 2:* Crear la base de datos lógica para almacenar y consultar la disponibilidad de los especialistas.
 *   **Scrum Master:**
     *   *Tarea 3:* Controlar el flujo de Git en el equipo, resolver bloqueos de conexión y coordinar la simulación del Daily Scrum.
-*   **Product Owner:**
+*   **Product Owner:Juan Manuel Serna**
     *   *Tarea 4:* Validar que los campos del registro de médicos coincidan con lo necesario para evaluar su disponibilidad en agenda.
